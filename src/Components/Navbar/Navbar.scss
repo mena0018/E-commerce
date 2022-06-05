@@ -1,0 +1,21 @@
+@import "../../scss/variables";
+@import "../../scss/mixins";
+
+
+.nav-top {
+    margin: 75px auto 50px;
+    @include align-flex(center);
+    width: 100%;
+    max-width: 700px;
+    background: $black;
+    border-radius: 5px;
+    padding: 0px 20px;
+    box-shadow: 0 10px 20px $black;
+
+    a {
+        font-size: 22px;
+        text-decoration: none;
+        color: $light-grey;
+        padding: 20px 20px;
+    }
+}

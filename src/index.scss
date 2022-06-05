@@ -1,0 +1,27 @@
+@import './scss/variables';
+@import './scss/mixins';
+
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: $font-fam;
+  height: 100%;
+  background: #ececec;
+}
+
+.global-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
