@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./Navbar.scss"
 
 
@@ -5,9 +6,9 @@ export default function Navbar() {
 
   return (
     <nav className='nav-top'>
-        <a href="">Accueil</a>
-        <a href="">Produits</a>
-        <a href="">Contact</a>
+      <Link to="/">Accueil</Link>
+      <Link to="/produits">Produits</Link>
+      <Link to="/contact">Contact</Link>
     </nav>
   )
 }
