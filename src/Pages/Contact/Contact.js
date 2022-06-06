@@ -1,7 +1,9 @@
 import React from 'react'
+import "./Contact.scss"
+
 
 export default function Contact() {
   return (
-    <div>Contact</div>
+      <h2 className='contact-title'>Contactez-nous</h2>
   )
 }
