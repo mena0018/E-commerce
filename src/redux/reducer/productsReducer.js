@@ -28,6 +28,18 @@ export default function productsReducer (state = INITIAL_STATE, action) {
                 }
             }
         }
+
+        case "UPDATEPRODUCT": {
+
+            const indexProductUpdate = state.panier.findIndex(obj => obj.id === action.payload.id)
+
+            const newArr = [...state.panier]
+            newArr[indexProductUpdate] = action.payload
+
+            return {
+                panier: newArr
+            }
+        }
         default : {}
     }
     return state;

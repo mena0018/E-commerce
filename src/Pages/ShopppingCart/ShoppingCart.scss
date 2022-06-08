@@ -1,0 +1,57 @@
+@import "../../scss/mixins";
+@import "../../scss/variables";
+
+
+.heading-cart {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.cart-list li {
+  background: $light-grey;
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-top: 0px;
+    width: 50px;
+  }
+
+  .bloc-cart-infos {
+    padding: 15px 15px;
+    height: 100%;
+    font-size: 18px;
+
+    h4 {
+      padding-top: 10px;
+      font-size: 22px;
+    }
+  }
+
+  .bloc-input {
+    margin-left: auto;
+
+    label {
+      margin-right: 10px;
+      font-size: 20px;
+    }
+
+    input {
+      padding: 5px;
+      width: 75px;
+      font-size: 18px;
+    }
+  }
+}
+
+.btn-cart {
+    display: block;
+    padding: 10px 12px;
+    font-size: 18px;
+    margin: 20px auto 0;
+}
+
+.total-price {
+  margin-top: 10px;
+  font-size: 20px;
+}
