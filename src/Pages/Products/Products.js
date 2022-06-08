@@ -11,7 +11,8 @@ export default function Products() {
 
       {data.map((product) => (
         <Link key={product.id}
-          to={`/produits/${product.title.replace(/\s+/g, "").trim()}`}>
+          to={`/produits/${product.title.replace(/\s+/g, "").trim()}`}
+          state={{data: product}}>
 
           <div className="bloc-card">
             <div className="product-card">
