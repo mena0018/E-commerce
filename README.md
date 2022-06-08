@@ -9,4 +9,10 @@
 
 
  ## Lorsque l'on clic sur un produit
- <img width="1418" alt="Capture d’écran 2022-06-08 à 12 13 20" src="https://user-images.githubusercontent.com/89834824/172592618-a39d0543-ec03-4379-a90a-2fd3524be801.png">
+
+<img width="1406" alt="Capture d’écran 2022-06-08 à 23 04 32" src="https://user-images.githubusercontent.com/89834824/172717158-a66bf6de-3d7f-4b7e-a04d-6a678951346f.png">
+
+
+ ## Panier
+
+<img width="1422" alt="Capture d’écran 2022-06-08 à 23 03 44" src="https://user-images.githubusercontent.com/89834824/172717134-e707ed41-7288-4241-94b7-8202cebb837f.png">
